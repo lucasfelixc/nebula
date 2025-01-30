@@ -3,7 +3,7 @@ type Props = {
     children?: NebulaNode[];
 };
 
-type NebulaNode = {
+export type NebulaNode = {
     type: string | Function;
     props: Props;
 };
